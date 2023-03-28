@@ -70,7 +70,6 @@ final class PackageVersions
             return new self($allPackageLists ? array_shift($allPackageLists) : []);
         }
 
-//        echo "<pre>"; var_dump(array_merge(...$allPackageLists)); exit;
         return new self(array_merge(...$allPackageLists));
     }
 
